@@ -1,0 +1,99 @@
+/** This file is part of Moodle - http://moodle.org/
+//
+// Moodle is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// Moodle is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+ */
+/**
+ * CSS styles file.
+ *
+ * @package    block_library_glossary
+ * @copyright  2019 Scott Braithwaite
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+/* Search styles */
+
+#page-blocks-library_glossary-pages-glossary section[data-region='blocks-column'] {
+    display:none;
+}
+#page-blocks-library_glossary-pages-glossary #region-main {
+    width:100%;
+}
+.block_library_glossary div .courselinktext {
+    bottom: 0;
+    height: 3.5rem;
+    margin-bottom: 0;
+    margin-top: -50px;
+    padding-top: 3.5rem;
+    padding-bottom: 3rem;
+}
+.block_library_glossary img {
+    width: 100%;
+}
+.block_library_glossary .courselinksubmit {
+    background:transparent;
+    color:#fff;
+    font-weight:700;
+    border:0
+}
+.glossary-search {
+    margin-bottom: 15px;
+}
+
+/* Content styles*/
+.libreturn {
+    background-color:#f72c88;background-image: radial-gradient(ellipse at center,rgba(255,255,255,.3),rgba(0,0,0,.3));
+    color: #fff;
+    text-align: center;
+    padding-top: 1rem;
+}
+.libreturn a, .libreturn a:hover, .libreturn a:visited {
+    color: #fff;
+    text-align: center;
+}
+
+button.btn.glossary-btn-link {
+    word-break: break-word;
+    overflow-wrap: break-word;
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+    white-space: normal;
+    text-align:left;
+}
+.librarianphoto img {
+    width: 100%;
+}
+.blogtitle, .blogbody {
+    padding: 0 2rem;
+}
+.col.left-content-area {
+    border: 2px solid #c9bfbf;
+    padding: 25px;
+}
+
+.right-content-area {
+    border: 2px solid #c9bfbf;
+    padding: 25px;
+    margin-left: -15px;
+}
+.glossary-left-padding {
+    padding-left: 15px !important;
+}
+ul#myTab {
+    margin-left: 0;
+    margin-right:0;
+}
+/* Block styles */
+.subject-select {
+    width: 80%;
+}
